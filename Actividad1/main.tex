@@ -1,0 +1,196 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} 
+\usepackage{xcolor}
+\usepackage{float}
+
+\title{ Series de Tiempo}
+\author{Actividad 1\\
+Análisis de datos climatológicos\\
+Profesor:\\
+Carlos Lizarraga Celaya \\
+Alumno:\\
+José Aarón Esquivel Ovilla \\
+Expediente:\\
+219210190\\
+        Departamento de Física \\
+        Universidad de Sonora}
+\date{15 de enero del 2021}
+
+\begin{document}
+
+\maketitle
+
+\clearpage
+
+\section{Introducción}
+En este reporte se presentará la información estadística de la estación climatológica \textit{El Rosarito} ubicada en el estado de Baja California Sur. A partir de los datos proporcionados por la Comisión Nacional del Agua (CONAGUA).\\
+
+Esta estación fue elegida dado que cumplia con los requisitos establecidos por el profesor (número de años adecuados de operación) y que se encuentra ubicada en un zona un poco rara, ya que está en una zona desértica y aun asi se encuentra cerca de un río con lo que se forma un clima tropical el cual presenta características únicas e igualmente tiene unas maravillosas vistas.\\
+Por su ubicación geográfica, es un punto donde se conservan características tanto climátologicas como de biodiversidad aún con bastantes rasgos naturales,  a salvo de los cambios que se dan debido a la intervención del ser humano, tales  como la contaminación.  
+
+\section{Datos de la estación}
+\begin{center}
+\begin{tabular}{|c|c|} \hline
+ \textbf{Estación}:& \textcolor{red}{3016} \\ \hline
+ \textbf{Nombre}:    & El Rosarito \\ \hline
+ \textbf{Estado}: & Baja California Sur \\ \hline
+ \textbf{Municipio}: & Mulegé \\ \hline
+ \textbf{Latitud(°)}: & 26.7642 \\ \hline
+ \textbf{Longitud(°)}: & \textcolor{red}{-112.4186} \\ \hline
+ \textbf{Altura(msn)}: & 640 \\ \hline
+ \textbf{Situación}: & Operando \\ \hline
+ \textbf{Datos desde}: & 1 de julio de 1941 \\ \hline
+ \textbf{Hasta}: & 31 de diciembre de 2017 \\ \hline
+ 
+\end{tabular}
+
+\end{center}
+
+\clearpage
+
+\section{Información de la ciudad}
+Mulegé \\
+Mulegé es un pequeño poblado, ubicado en la desembocadura del río del mismo nombre, en el municipio homónimo, cuya cabecera es \textbf{Santa Rosalía}, al norte del estado de Baja California Sur, frente al \textbf{mar de Cortés}.\\
+Es conocido como un \textbf{pueblo oasis} porque, aunque está en una zona desértica, la conexión con el río crea un estero y un mini enclave tropical con mangos, guayabos y naranjos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{mulege.jpg} 
+    \caption{Río de Mulegé} 
+\end{figure}   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{muleges.png} 
+    \caption{Vista satelital de Mulegé} 
+\end{figure} 
+
+\section{Estimaciones Climatológicas}
+A continuación se presentaran algunas gráficas de estimaciones climatológicas de la estación \textbf{El Rosarito}\\
+
+Como podemos notar en el municipio de Mulegé no llueve demasiado en los primeros meses del año (Enero-Julio), pero a partir del mes de Agosto las lluvias empiezan a aumentar. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{lluvia,mes.png} 
+    \caption{Promedio de lluvias por mes} 
+\end{figure} 
+
+Como consecuencia de que no llueva mucho, podemos apreciar que la evaporación por mes es nula. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{evaporacion,mes.png} 
+    \caption{Evaporación promedio de lluvias por mes} 
+\end{figure} 
+
+Se puede apreciar que del año 1940 al año 1990 el promedio de lluvias diarias no pasaron de 100mm, pero a partir del año 2000 las lluvias han ido aumentando.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{promedioymax.png} 
+    \caption{Promedio de lluvias por década y mes} 
+\end{figure} 
+
+Podemos ver que los meses donde se registra una mayor precipitación son en la temporada de verano, con lo cual propicia una mayor humedad. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=8cm]{promlluviasd.png} 
+    \caption{Promedio diario de lluvia} 
+\end{figure} 
+
+\clearpage
+
+Se puede apreciar que los casos en los que no se registran precipitaciones son muy abundantes por lo que la vegetación es escasa y el clima es seco. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm]{rangol.png} 
+    \caption{Distribución de la lluvia en rangos de 5mm} 
+\end{figure} 
+
+En la tabla siguiente, se puede observar el rango diario de precipitación, el cual es bajo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm]{rangod.png} 
+    \caption{Registro diario de temperaturas mínima y máxima} 
+\end{figure} 
+
+\clearpage
+
+En la siguiente tabla podemos observar las variaciones de temparaturas máximas registradas. Las cuales llegan a tener rangos muy altos debido a la baja precipitación. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{tempma.png} 
+    \caption{Temperatura máxima promedio mensual} 
+\end{figure} 
+
+De igual forma en la próxima tabla se observan las variaciones de las temparaturas mínimas. En climas con este tipo de variación en precipitación se presentan rangos de temperaturas muy extremas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{tempmi.png} 
+    \caption{Temperatura mínima promedio mensual} 
+\end{figure}
+
+\clearpage
+
+En la siguiente tabla, observamos las fluctuaciones de temperaturas diarias, las cuales se relacionan directamente con la cantidad de precipitación recibida. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=6cm]{tempd.png} 
+    \caption{Promedio diario de lluvia y temperatura media por mes} 
+\end{figure}
+
+Las temperaturas míminas registradas por estaciones del año van desde los -10° hasta los 10°, también se observa que la temperatura promedio va desde los 17.6° hasta los 30.3° y las temperaturas máximas alcanzan temperaturas de 41.0° hasta los 49.0°.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm]{tempt.png} 
+    \caption{Temperatura mínima, media y máxima por estación del año } 
+\end{figure}
+
+\clearpage
+
+Podemos notar que en verano y otoño es en donde más llueve y que en invierno no caen demasiadas lluvias y que en primavera casi no llueve.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm]{tempf.png} 
+    \caption{Lluvia promedio y máxima por estación del año} 
+\end{figure}
+
+\section{Comentarios generales de toda la información analizada}
+Como podemos notar en este municipio no llueve mucho por lo que su temperatura no cambia demasiado, al igual que los datos proporcionados de que tanto llueve por cada estación del año como por cada mes, por lo que podemos decir que al no tener cambios tan repentinos de temperatura, su clima es agradable y soportable.
+
+
+\section{Primeras impresiones de la actividad y preguntas}
+\textbf{Primeras impresiones}:\\
+Al momento de que el maestro dejo la actividad pense que iba a estar muy complicada, ya que no tenía ningún conocimiento sobre \LaTeX y crei que no podría hacerla, pero la verdad, al momento de buscar información por internet sobre esta manera de crear documentos, no me parecio difícil y honestamente me gusto mucho este tipo de programación para poder hacer mis documentos de una manera diferente.\\
+
+\clearpage
+
+\textbf{Preguntas}:\\
+\textbf{1.¿Qué te parecio?}\\
+Esta primera actividad me gusto mucho ya que es algo que nunca habia hecho y requeri de hacer una busqueda de información al respecto.\\
+
+\textbf{2.¿Cómo estuvo el reto?}\\
+La verdad no lo ví muy complicado dado que los comandos para el uso de esta herramienta no son difíciles.\\
+
+\textbf{3.¿Qué se te dificultó más?}\\
+Yo diría que un poco en la parte de hacer la tabla, pero después de hacer como dos renglones, pude entender como funcionaba, otra cosa que todabía no me queda claro es a como poder editar las imágenes para poder poner una junto con el titulo del trabajo.\\
+
+\textbf{4.¿Qué te aburrió?}\\
+Honestamente, no me aburrio nada, ya que esto es algo que voy a poder usar para el resto de mis estudios.\\
+
+\textbf{5.¿Qué recomendarías para mejorar la primera Actividad?}\\
+La verdad nada, esta primera actividad se me hizo apropiada para iniciar el curso.\\
+
+\textbf{6.¿Que grado de complejidad le asignarías a esta Actividad? (Bajo, Intermedio, Avanzado)}\\
+En mi opinión diría que bajo, pero como dije anteriormente, se me hizo correcto iniciar con esta actividad.
+\end{document}
